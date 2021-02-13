@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width = device-width, initial-scale =1.0">
+    <title> luckybird</title>
+    <script type="text/javascript" src="https://new-year.spartacodingclub.kr/newyear.js"></script>
+    <style>
+        .mytitle {
+            text-align: center;
+            color: red;
+            margin-top: 100px;
+            margin-bottom: 50px;
+
+        }
+        .mytitle > h1 {
+            font-size: 56px;
+            margin-top: 0px;
+        }
+        body {
+            background-color: ivory;
+            background-image: url("https://new-year.spartacodingclub.kr/images/pattern.png");
+            background-position: 600px 100px;
+            background-repeat: no-repeat; /*이미지가 반복되지않도록 하는것*/
+        }
+        * {
+            font-family: 'Yeon Sung', cursive;
+        } /* 모든 구역에 스타일 적용*/
+
+        .rtans > a {
+            display : block;
+            width: 150px;
+            height: 150px;
+            border: 3px solid red;
+            background-color: white;
+
+            box-shadow: 0px 0px 10px 0px darkred;
+            border-radius: 150px;
+
+            margin: 10px;
+
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+            text-align: center;
+            font-size : 25px;
+            text-decoration:none;
+
+        }
+
+        .rtans > a:hover {background-color: darkred;}
+
+        .rtan1 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png'); }
+        .rtan2 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS2.png'); }
+        .rtan3 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS3.png'); }
+        .rtan4 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS4.png'); }
+        .rtan5 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS5.png'); }
+        .rtan6 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS6.png'); }
+        .rtan7 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS7.png'); }
+        .rtan8 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS8.png'); }
+        .rtan9 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS9.png'); }
+        .rtan10 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS10.png'); }
+        .rtan11 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS11.png'); }
+        .rtan12 { background-image: url('https://new-year.spartacodingclub.kr/images/yearS12.png'); }
+
+
+
+        .rtans {
+            display : flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            width :1200px;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 780px) {
+            body{
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+            .rtans {
+                width: 100%;
+            }
+            .mytitle{
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .rtans > a {
+                color: darkred;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<div class ="mytitle">
+    <h1>2021년 신년운세</h1>
+    <h2>믿거나 말거나</h2>
+</div>
+<div class = "rtans">
+    <a class="rtan1" href="result.html?year=1">쥐</a>
+    <a class="rtan2" href="result.html?year=2">소</a>
+    <a class="rtan3" href="result.html?year=3">호랑이</a>
+    <a class="rtan4" href="result.html?year=4">토끼</a>
+    <a class="rtan5" href="result.html?year=5">용</a>
+    <a class="rtan6" href="result.html?year=6">뱀</a>
+    <a class="rtan7" href="result.html?year=7">말</a>
+    <a class="rtan8" href="result.html?year=8">양</a>
+    <a class="rtan9" href="result.html?year=10">닭</a>
+    <a class="rtan10" href="result.html?year=11">개</a>
+    <a class="rtan11" href="result.html?year=9">원숭이</a>
+    <a class="rtan12" href="result.html?year=12">돼지</a>
+
+
+</div>
+</body>
+</html>
